@@ -1,0 +1,49 @@
+/*Setting container margin top*/
+.container {
+  margin-top: 30px;
+}
+
+/*input box styling*/
+input {
+  text-align: center;
+  background-color: #f2f2f2;
+  margin-bottom: 5px;
+  color: black;
+}
+
+body {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    background-color: black;
+    color: white;
+}
+
+.gpborder{
+  border: 1px dotted white;
+}
+
+h6 {
+  font-weight: bold;
+}
+
+/*spaceing of HTML Titles ahd JS script*/
+.gpspaceing{
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+}
+
+/*Margin bottom space below Guess the Letter I'm thinking of*/
+.heading-bottom-space{
+  margin-bottom: 20px;
+}
+
+/*margin top spacing aboveGuess the Letter I'm thinking of*/
+.margin-top-spacing{
+  margin-top: 20px;
+}
+
+picture img {
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+}

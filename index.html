@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Hello, world!</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+  <!-- Added link to the jQuery Library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+
+<!-- HTML Skeleton buildout -->
+  <div class="container ">
+    <div class="row heading-bottom-space ">
+      <div class="col-md-12 text-center">
+        <img id="images" src="assets/images/heading.jpg" class="img-fluid" alt="">
+      </div>
+    </div>
+    <div class="row text-center gpbottomborder  gpborder">
+      <div class="col-md-5">
+        <div class="row">
+          <div class="col-md-10  gpspaceing margin-top-spacing">
+            <h6>Guess this Hip-Hop Artist</h6>
+            <p id="game_board"></p>
+          </div>
+          <div class="col-md-10   gpspaceing">
+            <h6>Enter Words</h6>
+            <input type="text" id='inputBox' placeholder='Enter Letter'>
+          </div>
+          <div class="col-md-10  gpspaceing">
+            <h6>Hint</h6>
+            <p id="clues"></p>
+          </div>
+          <div class="col-md-10  gpspaceing">
+            <h6>Wins</h6>
+            <p id="wins"></p>
+          </div>
+          <div class="col-md-10  gpspaceing">
+            <h6>Loses</h6>
+            <p id="loses"></p>
+          </div>
+          <div class="col-md-10  gpspaceing">
+            <h6>Guesses Remaining</h6>
+            <p id="guesses_remaining"></p>
+          </div>
+          <div class="col-md-10 gpspaceing">
+            <h6>Letters Used</h6>
+            <p id="lettersUsed"></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <picture>
+          <img id="images" src="assets/images/HipHop.jpg" class="img-fluid" alt="">
+        </picture>
+      </div>
+    </div>
+  </div>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+  <script src="assets/javascript/game.js" type="text/javascript"></script>
+</body>
+
+</html>
